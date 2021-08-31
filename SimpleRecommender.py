@@ -1,6 +1,6 @@
 #Setup
 import pandas as pd
-metadata = pd.read_csv('Large Dataset.csv')
+metadata = pd.read_csv('Full Dataset.csv')
 print(metadata.head(3))
 
 # The main issue with a simple recommender is the weightage of individual reviews. 

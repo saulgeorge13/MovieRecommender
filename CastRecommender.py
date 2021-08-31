@@ -47,4 +47,4 @@ def get_recommendations(title, cosine_sim=cosine_sim2):
     movie_indices = [i[0] for i in sim_scores]
     return metadata['Title'].iloc[movie_indices]
 
-print(get_recommendations('The Dark Knight'))
+print(get_recommendations('The Dark Knight Rises'))
